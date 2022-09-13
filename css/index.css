@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+}
+.navbar {
+    background-color: #4520AB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(154, 117, 189);
+    font-family: Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+.text1{
+    padding-top: 10px;
+    padding-left: 82px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: #FFBC5B;
+    word-spacing: 2px;
+    letter-spacing: 1.8px;
+    font-style: normal;
+    font-family: Tahoma;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 36px;
+}
+.firstline {
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #a1a1a1;
+    font-size: 14px;
+}
+.films1{
+    transition: all 0.7s ease-in-out;
+}
+.films1:hover{
+    transform: scale(1.05);
+}
+.text2{
+    padding-top: 10px;
+    padding-left: 82px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: #FFBC5B;
+    word-spacing: 2px;
+    letter-spacing: 1.8px;
+    font-style: normal;
+    font-family: Tahoma;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 36px;
+}
+.secondline{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+  color: #a1a1a1;
+  font-size: 14px;
+}
+
+.films2{
+    transition: all 0.7s ease-in-out;
+}
+.films2:hover{
+    transform: scale(1.05);
+}
+.stars{
+    position: relative;
+     top: -440px;
+     left: 20px;
+     font-size: 16px;
+     text-align: center;
+}
+.stars2{
+    position: relative;
+     top: -440px;
+     left: 20px;
+     font-size: 16px;
+     text-align: center;
+}
+.navbar h4:hover{
+    text-decoration: underline;
+    color:#ad7610;
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    .firstline, .secondline {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: center;
+    } h3 {
+        margin-top: -50px;
+    } p {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .firstline, .secondline {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+      } h3 {
+        margin-top: -50px;
+    } p {
+        margin-bottom: 60px;
+    } 
+}
